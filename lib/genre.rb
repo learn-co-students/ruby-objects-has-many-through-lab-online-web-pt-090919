@@ -17,9 +17,7 @@ class Genre
   end
   
   def artists # Return array of artist instances in this genre
-    p songs.map {|song| song.artist} 
-    
-    # - TEST UTPUT - 
-      # [#<Artist:0x000000000262d6b0 @name="Jay-Z">, #<Artist:0x000000000262d598 @name="Kendrick Lamar">]
+    songs.map {|song| song.artist} 
   end
+  
 end

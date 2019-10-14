@@ -3,7 +3,6 @@ class Song
   
   @@all = []
   
-  
   # Initializes with a name, an artist, and a genre
   def initialize(name, artist, genre)
     @name = name
@@ -16,6 +15,5 @@ class Song
   def self.all
     @@all
   end
-  
-  
+
 end
